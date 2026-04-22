@@ -1,0 +1,56 @@
+.friends-section h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+.friend-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.friend-card span {
+  font-weight: bold;
+  color: #555;
+}
+
+.friend-card button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.friend-card button:hover {
+  opacity: 0.85;
+}
+
+.friend-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+.friend-card button:nth-child(2) {
+  background-color: #28a745; /* accept */
+  color: #fff;
+}
+
+.friend-card button:nth-child(3) {
+  background-color: #dc3545; /* reject */
+  color: #fff;
+}
+
+.friend-card button:nth-child(1) {
+  background-color: #007bff; /* add friend */
+  color: #fff;
+}

@@ -1,0 +1,75 @@
+/* Card */
+.signup-form {
+  width: 350px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.signup-title {
+  text-align: center;
+  margin: 0 0 24px 0;
+  font-size: 24px;
+}
+
+/* Input groups */
+.signup-username,
+.signup-email,
+.signup-password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.signup-username input,
+.signup-email input,
+.signup-password input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* Button row */
+.signup-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+/* Buttons */
+.submit-btn,
+.login-btn {
+  width: 110px;
+  padding: 8px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Submit */
+.submit-btn {
+  background: #42b72a;
+  color: white;
+}
+
+/* Login */
+.login-btn {
+  background: #1877f2;
+  color: white;
+}
+
+/* Hover */
+.submit-btn:hover {
+  background: #36a420;
+}
+
+.login-btn:hover {
+  background: #145dbf;
+}

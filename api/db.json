@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "3e11",
+      "Username": "shayan",
+      "Email": "shayan@gmail.com",
+      "Password": "shayan",
+      "Friends": [],
+      "sentRequests": [
+        "858e"
+      ],
+      "receivedRequests": [
+        null
+      ],
+      "friends": [
+        "6457"
+      ]
+    },
+    {
+      "id": "6457",
+      "Username": "ayan",
+      "Email": "ayan@gmail.com",
+      "Password": "ayan",
+      "Friends": [],
+      "sentRequests": [],
+      "receivedRequests": [
+        null
+      ],
+      "friends": [
+        "3e11"
+      ]
+    },
+    {
+      "id": "858e",
+      "Username": "jhkjh",
+      "Email": "hjkhjk@gfdgfd.com",
+      "Password": "hgjhghjghj",
+      "Friends": [],
+      "sentRequests": [],
+      "receivedRequests": [
+        "3e11"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "1769679950511",
+      "Username": "shayan",
+      "text": "i am shayan khan"
+    },
+    {
+      "id": "1769681413236",
+      "Username": "jhkjh",
+      "text": "gjhgjhghjg"
+    },
+    {
+      "id": "1769681427595",
+      "Username": "jhkjh",
+      "text": "jhkjhjkh"
+    },
+    {
+      "id": "1769681437105",
+      "Username": "jhkjh",
+      "text": "bnvnbvnb"
+    },
+    {
+      "id": "1769681460775",
+      "Username": "jhkjh",
+      "text": "zxzxzxzxzxz"
+    },
+    {
+      "id": "1769681493303",
+      "Username": "jhkjh",
+      "text": "wqewqewqeq"
+    },
+    {
+      "id": "1769681564201",
+      "Username": "jhkjh",
+      "text": "my name is jeff"
+    },
+    {
+      "id": "1769681584198",
+      "Username": "jhkjh",
+      "text": "my name is jeff"
+    },
+    {
+      "id": "s4eQyBJCdlM",
+      "Username": "ayan",
+      "text": "i am ayan khan "
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

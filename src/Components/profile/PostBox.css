@@ -1,0 +1,38 @@
+.post-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.post-box textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 15px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.post-box textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.post-box button {
+  align-self: flex-end;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.post-box button:hover {
+  background-color: #0056b3;
+}
